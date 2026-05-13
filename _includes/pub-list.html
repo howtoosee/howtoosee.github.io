@@ -1,0 +1,21 @@
+{% assign pubs = site.data.publications %}
+{% if include.limit %}
+  {% assign pubs = pubs | slice: 0, include.limit %}
+{% endif %}
+<div class="pub-list">
+{% for pub in pubs %}
+  <article class="pub-item">
+    <div class="pub-main">
+      <div class="pub-title">{{ pub.title }}</div>
+      <p class="pub-authors">{{ pub.authors }}</p>
+      <p class="pub-meta"><em>{{ pub.meta }}</em></p>
+      <div class="pub-links">
+        <button class="pub-btn pub-abs-toggle" onclick="this.closest('.pub-main').querySelector('.pub-abstract').classList.toggle('open')">Abs</button>
+        {% if pub.pdf != "" %}<a class="pub-btn" href="{{ pub.pdf }}" target="_blank" rel="noopener noreferrer">PDF</a>{% endif %}
+        {% if pub.code != "" %}<a class="pub-btn" href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
+      </div>
+      <div class="pub-abstract">{{ pub.abstract }}</div>
+    </div>
+  </article>
+{% endfor %}
+</div>

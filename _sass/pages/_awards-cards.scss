@@ -1,0 +1,93 @@
+.two-col-list,
+.awards-list {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0.4rem 0 1rem;
+}
+
+.two-col-item,
+.award-item {
+  display: grid;
+  grid-template-columns: minmax(6.5rem, 16%) minmax(0, 1fr);
+  column-gap: 1.1rem;
+  align-items: start;
+  padding: 0.35rem 0;
+}
+
+.two-col-key,
+.award-date {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
+.two-col-main,
+.award-main {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.two-col-main p,
+.award-main p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .two-col-item,
+  .award-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.2rem;
+  }
+
+  .two-col-key,
+  .award-date {
+    white-space: normal;
+  }
+}
+
+.edu-list {
+  margin: 0.35rem 0 1.25rem;
+}
+
+.edu-item {
+  padding: 0;
+}
+
+.edu-item:not(:last-child) {
+  border-bottom: none;
+  margin-bottom: 1.35rem;
+}
+
+.edu-date {
+  margin: 0 0 0.18rem;
+  color: var(--text-muted-color);
+  font-size: 0.92rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.edu-degree {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.edu-program {
+  margin: 0.08rem 0 0;
+  color: var(--text-muted-color);
+  line-height: 1.6;
+}
+
+.edu-details {
+  margin: 0.28rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.edu-details li {
+  margin: 0.08rem 0;
+  line-height: 1.5;
+}
+
+.cv-divider {
+  margin: 1.6rem 0 1.8rem;
+}

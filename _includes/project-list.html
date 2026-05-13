@@ -1,0 +1,17 @@
+{% assign projects = site.data.projects %}
+{% if include.limit %}
+  {% assign projects = projects | slice: 0, include.limit %}
+{% endif %}
+<div class="pub-list">
+{% for proj in projects %}
+  <article class="pub-item">
+    <div class="pub-main">
+      <div class="pub-title">{{ proj.title }}</div>
+      <p class="pub-authors">{{ proj.description }}</p>
+      <div class="pub-links">
+        {% if proj.code != "" %}<a class="pub-btn" href="{{ proj.code }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
+      </div>
+    </div>
+  </article>
+{% endfor %}
+</div>

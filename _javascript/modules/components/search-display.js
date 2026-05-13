@@ -74,6 +74,20 @@ function isMobileView() {
 }
 
 export function displaySearch() {
+  if (
+    !btnSbTrigger ||
+    !btnSearchTrigger ||
+    !btnCancel ||
+    !topbarTitle ||
+    !search ||
+    !resultWrapper ||
+    !results ||
+    !input ||
+    !hints
+  ) {
+    return;
+  }
+
   btnSearchTrigger.addEventListener('click', () => {
     MobileSearchBar.on();
     ResultSwitch.on();

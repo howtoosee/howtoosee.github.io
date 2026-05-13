@@ -2,6 +2,8 @@
 #
 # Run jekyll serve and then launch the site
 
+set -eu
+
 prod=false
 command="bundle exec jekyll s -l"
 host="127.0.0.1"
@@ -39,6 +41,9 @@ while (($#)); do
     ;;
   esac
 done
+
+echo -e "\n> npm run build\n"
+npm run build
 
 command="$command -H $host"
 

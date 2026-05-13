@@ -1,0 +1,11 @@
+- title: "Multi-Modal Entity Resolution"
+  description: "Undergraduate dissertation project, supervised by Professor Kian-Lee Tan."
+  code: "https://github.com/howtoosee/CP4101_Multi_Modal_Entity_Resolution"
+
+- title: "NLP Fake News Detection with Graph Neural Networks"
+  description: "CS4248 Project. We augment Long Short-Term Memory neural networks (LSTMs) to include the attention mechanism and empirically show its effectiveness. Then we propose a new model that attaches the attention-based LSTM layers as input to Graph Convolutional Networks (GCNs)."
+  code: "https://github.com/howtoosee/CS4248_NLP_Fake_News_Detection_Attention"
+
+- title: "Transfer Learning for Tourist Photograph Location Recognition"
+  description: "CS3244 Machine Learning Project. We performed transfer learning of Convolutional Neural Networks (CNNs) for location recognition of tourist photographs."
+  code: "https://github.com/howtoosee/CNN_Tourist_Photograph_Recognition"

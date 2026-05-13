@@ -9,3 +9,8 @@
 ';
 
 /* append your custom style below */
+
+.content a:not([class]):hover {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
