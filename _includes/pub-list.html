@@ -10,11 +10,11 @@
       <p class="pub-authors">{{ pub.authors }}</p>
       <p class="pub-meta"><em>{{ pub.meta }}</em></p>
       <div class="pub-links">
-        <button class="pub-btn pub-abs-toggle" onclick="this.closest('.pub-main').querySelector('.pub-abstract').classList.toggle('open')">Abs</button>
+        <button class="pub-btn pub-abs-toggle" onclick="const abs = this.closest('.pub-main').querySelector('.pub-abstract'); this.closest('.pub-list').querySelectorAll('.pub-abstract.open').forEach((item) => { if (item !== abs) item.classList.remove('open'); }); abs.classList.toggle('open');">Abs</button>
         {% if pub.pdf != "" %}<a class="pub-btn" href="{{ pub.pdf }}" target="_blank" rel="noopener noreferrer">PDF</a>{% endif %}
         {% if pub.code != "" %}<a class="pub-btn" href="{{ pub.code }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
       </div>
-      <div class="pub-abstract">{{ pub.abstract }}</div>
+      <div class="pub-abstract">{{ pub.abstract | normalize_whitespace }}</div>
     </div>
   </article>
 {% endfor %}
