@@ -13,7 +13,7 @@ I am also interested in agentic systems, specifcally, on the storage and retriev
 Prior to my PhD studies, I obtained my Bachelor of Computing (Computer Science) with Honours (Highest Distinction) at NUS School of Computing.
 My thesis was on Multi-Modal Entity Resolution, supervised by [Professor Kian-Lee Tan](https://www.comp.nus.edu.sg/cs/people/tankl/).
 
-I enjoy sports: gym, bouldering and fencing. Additionally, I play competitive games such as Valorant, alhough I can't claim to be good at them.
+I enjoy sports: gym, bouldering and fencing. Additionally, I play competitive games such as Valorant, although I can't claim to be good at them.
 
 
 ## News
