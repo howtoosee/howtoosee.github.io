@@ -1,6 +1,6 @@
 - title: "Make Your LVLM KV Cache More Lightweight"
   venue: TMLR
-  authors: "<strong>Xihao Chen</strong>, Yangyang Guo, and Roger Zimmermann"
+  authors: "<u>Xihao Chen</u>, Yangyang Guo, and Roger Zimmermann"
   meta: "Transactions on Machine Learning Research, May 2026"
   abstract: >-
     Key-Value (KV) cache has become a de facto component of modern Large Vision-Language Models (LVLMs)
@@ -20,7 +20,7 @@
 
 - title: "SynMemo: A Latent-First Framework and Benchmark for Multimodal Conversational Memory"
   venue: Review
-  authors: "<strong>Xihao Chen</strong>, Jizhizi Li, Amy Shi-Nash, Roger Zimmermann"
+  authors: "<u>Xihao Chen</u>, Jizhizi Li, Amy Shi-Nash, Roger Zimmermann"
   meta: "Under review NeurIPS, 2026"
   abstract: >-
     Memory is central to intelligent agents that operate over long horizons. Existing benchmark frameworks
@@ -48,7 +48,7 @@
 
 - title: "Seeing the Unseen: Unified Visible-Invisible Motion for Physically Consistent Video Generation"
   venue: Review
-  authors: "Mingyang Bao, Fangda Ye, <strong>Xihao Chen</strong>, Bobo Li, Xiangtai Li, Shengqiong Wu"
+  authors: "Mingyang Bao, Fangda Ye, <u>Xihao Chen</u>, Bobo Li, Xiangtai Li, Shengqiong Wu"
   meta: "Under review NeurIPS, 2026"
   abstract: >-
     Recent advances in video generation have achieved impressive visual quality, yet they often fail to
@@ -70,7 +70,7 @@
 
 - title: "Efficient Corset Selection for Accelerated Vision Instruction-Tuning"
   venue: Review
-  authors: "<strong>Xihao Chen</strong>, Yangyang Guo, and Roger Zimmermann"
+  authors: "<u>Xihao Chen</u>, Yangyang Guo, and Roger Zimmermann"
   meta: "Under review ECCV, 2026"
   abstract: >-
     Large Vision-Language Models (LVLMs) have demonstrated remarkable performance across a range of

@@ -33,6 +33,12 @@
   color: var(--text-muted-color);
 }
 
+.pub-authors u {
+  text-decoration-color: var(--text-muted-color);
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.16em;
+}
+
 .pub-links {
   display: flex;
   flex-wrap: wrap;
