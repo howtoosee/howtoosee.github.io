@@ -18,55 +18,55 @@
   pdf: "https://openreview.net/pdf?id=n77IeySrQl"
   code: "https://github.com/howtoosee/lightkv"
 
-- title: "SynMemo: A Latent-First Framework and Benchmark for Multimodal Conversational Memory"
-  venue: Review
-  authors: "<u>Xihao Chen</u>, Jizhizi Li, Amy Shi-Nash, Roger Zimmermann"
-  meta: "Under review NeurIPS, 2026"
-  abstract: >-
-    Memory is central to intelligent agents that operate over long horizons. Existing benchmark frameworks
-    have enabled progress in evaluating such systems, but they still face two key limitations. First,
-    supervision is often tied directly to observed dialogue traces rather than to explicitly modelled latent
-    world states. As a result, the link between latent events, observations, and target memories is often
-    implicit, making it difficult to generate dialogue and multimodal evidence in a controlled manner while
-    preserving clear memory supervision. Second, existing resources remain predominantly text-based despite
-    the inherently multimodal nature of real-world memory, largely because constructing multimodal datasets
-    at scale requires realistic data to be collected, aligned, annotated, and released under significant
-    privacy constraints. Although synthetic generation provides a scalable alternative, prior approaches are
-    often only weakly grounded in explicit latent state, making it difficult to tightly align multimodal
-    evidence, dialogue trajectories, and memory supervision. To address these issues, we propose SynMemo, a
-    multi-agent framework that models world state and persona as persistent latent context, uses dynamic
-    events to trigger memory-relevant updates, and generates aligned dialogues, multimodal artefacts, and
-    supervision signals from the same latent foundation. This preserves explicit ground truth even when
-    observations are partial, noisy, or temporally distributed. We further derive a supervision layer from
-    this latent foundation to improve consistency and data fidelity, enabling scalable generation of
-    high-quality multimodal memory data. Building on this framework, we introduce SynMemoBench, a benchmark
-    dataset with human-checked annotations and tasks for question answering, session summarisation, and
-    memory retrieval, along with baseline evaluations of existing memory systems. Together, SynMemo and
-    SynMemoBench provide a reusable framework for training and evaluating multimodal memory systems.
-  pdf: ""
-  code: ""
+# - title: "SynMemo: A Latent-First Framework and Benchmark for Multimodal Conversational Memory"
+#   venue: Review
+#   authors: "<u>Xihao Chen</u>, Jizhizi Li, Amy Shi-Nash, Roger Zimmermann"
+#   meta: "Under review NeurIPS, 2026"
+#   abstract: >-
+#     Memory is central to intelligent agents that operate over long horizons. Existing benchmark frameworks
+#     have enabled progress in evaluating such systems, but they still face two key limitations. First,
+#     supervision is often tied directly to observed dialogue traces rather than to explicitly modelled latent
+#     world states. As a result, the link between latent events, observations, and target memories is often
+#     implicit, making it difficult to generate dialogue and multimodal evidence in a controlled manner while
+#     preserving clear memory supervision. Second, existing resources remain predominantly text-based despite
+#     the inherently multimodal nature of real-world memory, largely because constructing multimodal datasets
+#     at scale requires realistic data to be collected, aligned, annotated, and released under significant
+#     privacy constraints. Although synthetic generation provides a scalable alternative, prior approaches are
+#     often only weakly grounded in explicit latent state, making it difficult to tightly align multimodal
+#     evidence, dialogue trajectories, and memory supervision. To address these issues, we propose SynMemo, a
+#     multi-agent framework that models world state and persona as persistent latent context, uses dynamic
+#     events to trigger memory-relevant updates, and generates aligned dialogues, multimodal artefacts, and
+#     supervision signals from the same latent foundation. This preserves explicit ground truth even when
+#     observations are partial, noisy, or temporally distributed. We further derive a supervision layer from
+#     this latent foundation to improve consistency and data fidelity, enabling scalable generation of
+#     high-quality multimodal memory data. Building on this framework, we introduce SynMemoBench, a benchmark
+#     dataset with human-checked annotations and tasks for question answering, session summarisation, and
+#     memory retrieval, along with baseline evaluations of existing memory systems. Together, SynMemo and
+#     SynMemoBench provide a reusable framework for training and evaluating multimodal memory systems.
+#   pdf: ""
+#   code: ""
 
-- title: "Seeing the Unseen: Unified Visible-Invisible Motion for Physically Consistent Video Generation"
-  venue: Review
-  authors: "Mingyang Bao, Fangda Ye, <u>Xihao Chen</u>, Bobo Li, Xiangtai Li, Shengqiong Wu"
-  meta: "Under review NeurIPS, 2026"
-  abstract: >-
-    Recent advances in video generation have achieved impressive visual quality, yet they often fail to
-    produce physically consistent dynamics due to the lack of explicit modeling of underlying physical
-    processes. Existing approaches either rely on simulators with strong assumptions or use coarse semantic
-    guidance, and further struggle to effectively inject physical priors into generation models. In this
-    work, we propose Seeing the Unseen, a unified framework for physics-grounded video generation. Our
-    approach decomposes the problem into two stages: learning physical dynamics and injecting them into
-    video synthesis. First, we introduce a lightweight Particle-based Graph Dynamics Simulator (PGDS) that
-    learns generalizable physical interactions from data and predicts plausible 3D motion trajectories.
-    Second, we propose a Visible-Invisible Motion Field (VIMF) that captures both motion observable in the
-    input frame and motion that emerges over time due to object dynamics. This representation enables more
-    complete and structured motion guidance compared to conventional physical signals. By integrating these
-    trajectories into a diffusion-based generator, our method produces videos that are both visually
-    coherent and physically consistent. Extensive experiments demonstrate improved motion accuracy,
-    interaction consistency, and reduced physical artifacts compared to strong baselines.
-  pdf: ""
-  code: ""
+# - title: "Seeing the Unseen: Unified Visible-Invisible Motion for Physically Consistent Video Generation"
+#   venue: Review
+#   authors: "Mingyang Bao, Fangda Ye, <u>Xihao Chen</u>, Bobo Li, Xiangtai Li, Shengqiong Wu"
+#   meta: "Under review NeurIPS, 2026"
+#   abstract: >-
+#     Recent advances in video generation have achieved impressive visual quality, yet they often fail to
+#     produce physically consistent dynamics due to the lack of explicit modeling of underlying physical
+#     processes. Existing approaches either rely on simulators with strong assumptions or use coarse semantic
+#     guidance, and further struggle to effectively inject physical priors into generation models. In this
+#     work, we propose Seeing the Unseen, a unified framework for physics-grounded video generation. Our
+#     approach decomposes the problem into two stages: learning physical dynamics and injecting them into
+#     video synthesis. First, we introduce a lightweight Particle-based Graph Dynamics Simulator (PGDS) that
+#     learns generalizable physical interactions from data and predicts plausible 3D motion trajectories.
+#     Second, we propose a Visible-Invisible Motion Field (VIMF) that captures both motion observable in the
+#     input frame and motion that emerges over time due to object dynamics. This representation enables more
+#     complete and structured motion guidance compared to conventional physical signals. By integrating these
+#     trajectories into a diffusion-based generator, our method produces videos that are both visually
+#     coherent and physically consistent. Extensive experiments demonstrate improved motion accuracy,
+#     interaction consistency, and reduced physical artifacts compared to strong baselines.
+#   pdf: ""
+#   code: ""
 
 - title: "Efficient Corset Selection for Accelerated Vision Instruction-Tuning"
   venue: Review
