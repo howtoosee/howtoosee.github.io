@@ -46,32 +46,32 @@
 #   pdf: ""
 #   code: ""
 
-# - title: "Seeing the Unseen: Unified Visible-Invisible Motion for Physically Consistent Video Generation"
-#   venue: Review
-#   authors: "Mingyang Bao, Fangda Ye, <u>Xihao Chen</u>, Bobo Li, Xiangtai Li, Shengqiong Wu"
-#   meta: "Under review NeurIPS, 2026"
-#   abstract: >-
-#     Recent advances in video generation have achieved impressive visual quality, yet they often fail to
-#     produce physically consistent dynamics due to the lack of explicit modeling of underlying physical
-#     processes. Existing approaches either rely on simulators with strong assumptions or use coarse semantic
-#     guidance, and further struggle to effectively inject physical priors into generation models. In this
-#     work, we propose Seeing the Unseen, a unified framework for physics-grounded video generation. Our
-#     approach decomposes the problem into two stages: learning physical dynamics and injecting them into
-#     video synthesis. First, we introduce a lightweight Particle-based Graph Dynamics Simulator (PGDS) that
-#     learns generalizable physical interactions from data and predicts plausible 3D motion trajectories.
-#     Second, we propose a Visible-Invisible Motion Field (VIMF) that captures both motion observable in the
-#     input frame and motion that emerges over time due to object dynamics. This representation enables more
-#     complete and structured motion guidance compared to conventional physical signals. By integrating these
-#     trajectories into a diffusion-based generator, our method produces videos that are both visually
-#     coherent and physically consistent. Extensive experiments demonstrate improved motion accuracy,
-#     interaction consistency, and reduced physical artifacts compared to strong baselines.
-#   pdf: ""
-#   code: ""
+- title: "Seeing the Unseen: Unified Visible-Invisible Motion for Physically Consistent Video Generation"
+  venue: Review
+  authors: "Mingyang Bao, Fangda Ye, <u>Xihao Chen</u>, Bobo Li, Xiangtai Li, Shengqiong Wu"
+  meta: "Under review"
+  abstract: >-
+    Recent advances in video generation have achieved impressive visual quality, yet they often fail to
+    produce physically consistent dynamics due to the lack of explicit modeling of underlying physical
+    processes. Existing approaches either rely on simulators with strong assumptions or use coarse semantic
+    guidance, and further struggle to effectively inject physical priors into generation models. In this
+    work, we propose Seeing the Unseen, a unified framework for physics-grounded video generation. Our
+    approach decomposes the problem into two stages: learning physical dynamics and injecting them into
+    video synthesis. First, we introduce a lightweight Particle-based Graph Dynamics Simulator (PGDS) that
+    learns generalizable physical interactions from data and predicts plausible 3D motion trajectories.
+    Second, we propose a Visible-Invisible Motion Field (VIMF) that captures both motion observable in the
+    input frame and motion that emerges over time due to object dynamics. This representation enables more
+    complete and structured motion guidance compared to conventional physical signals. By integrating these
+    trajectories into a diffusion-based generator, our method produces videos that are both visually
+    coherent and physically consistent. Extensive experiments demonstrate improved motion accuracy,
+    interaction consistency, and reduced physical artifacts compared to strong baselines.
+  pdf: ""
+  code: ""
 
 - title: "Efficient Corset Selection for Accelerated Vision Instruction-Tuning"
   venue: Review
   authors: "<u>Xihao Chen</u>, Yangyang Guo, and Roger Zimmermann"
-  meta: "Under review ECCV, 2026"
+  meta: "Under review"
   abstract: >-
     Large Vision-Language Models (LVLMs) have demonstrated remarkable performance across a range of
     cross-modal understanding tasks. However, their supervised fine-tuning (SFT) stage often requires
