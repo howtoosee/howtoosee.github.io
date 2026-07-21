@@ -78,17 +78,17 @@ order: 3
 <div class="edu-list">
   <article class="edu-item">
     <p class="edu-date">May 2026 - Present</p>
-    <p class="edu-degree"><strong>Machine Learning Engineer Intern</strong>, ByteDance Pte. Ltd.</p>
+    <p class="edu-degree"><strong>Machine Learning Engineer Intern</strong>, ByteDance, Singapore</p>
   </article>
 
   <article class="edu-item">
     <p class="edu-date">May 2022 - Dec 2022</p>
-    <p class="edu-degree"><strong>Machine Learning Research Intern</strong>, PayPal Pte. Ltd.</p>
+    <p class="edu-degree"><strong>Machine Learning Research Intern</strong>, PayPal, Singapore</p>
   </article>
 
   <article class="edu-item">
     <p class="edu-date">Feb 2021 - Aug 2021</p>
-    <p class="edu-degree"><strong>Software Engineer Intern</strong>, Cialfo Pte. Ltd.</p>
+    <p class="edu-degree"><strong>Software Engineer Intern</strong>, Cialfo, Singapore</p>
   </article>
 </div>
 

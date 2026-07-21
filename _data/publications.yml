@@ -68,7 +68,7 @@
   pdf: ""
   code: ""
 
-- title: "Efficient Corset Selection for Accelerated Vision Instruction-Tuning"
+- title: "Can We Make Coreset Selection for LVLM Fine-Tuning More Efficient?"
   venue: Review
   authors: "<u>Xihao Chen</u>, Yangyang Guo, and Roger Zimmermann"
   meta: "Under review"
