@@ -47,9 +47,9 @@
 #   code: ""
 
 - title: "Seeing the Unseen: Unified Visible-Invisible Motion for Physically Consistent Video Generation"
-  venue: Review
+  venue: NeurIPS
   authors: "Mingyang Bao, Fangda Ye, <u>Xihao Chen</u>, Bobo Li, Xiangtai Li, Shengqiong Wu"
-  meta: "Under review"
+  meta: "Neural Information Processing Systems, 2026"
   abstract: >-
     Recent advances in video generation have achieved impressive visual quality, yet they often fail to
     produce physically consistent dynamics due to the lack of explicit modeling of underlying physical
